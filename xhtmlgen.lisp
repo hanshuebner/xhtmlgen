@@ -306,7 +306,7 @@
 (def-std-html :html)
 
 (def-std-html :i)
-(def-std-html :iframe)
+(def-std-html :iframe :self-close-if-empty-p nil)
 (def-std-html :ilayer)
 (def-std-html :img)
 (def-std-html :input)
